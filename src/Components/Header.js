@@ -9,6 +9,22 @@ export default function Header() {
                 <h6 className="bookings"><a href="google.com">Bookings</a></h6>
             </div>
             <button className="menu--icon"></button>
+            
         </div>
     )
 }
+
+const menuIcon = document.querySelector(".menu--icon");
+const menuHidden = document.querySelector(".menu--hidden");
+let menuStatus = "off";
+
+menuIcon.addEventListener("click", () => {
+    if (menuStatus === "off") {
+        menuStatus = "on";
+        menuHidden.style.visibility = "visible";
+    }
+    else if (menuStatus === "on") {
+        menuStatus = "off";
+        menuHidden.style.visibility = "hidden";
+    }
+})
