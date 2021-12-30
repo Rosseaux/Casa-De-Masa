@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Casa-De-Masa/static/css/main.ea4939d3.css",
+    "main.js": "/Casa-De-Masa/static/js/main.e4763d50.js",
+    "static/js/787.6286dce0.chunk.js": "/Casa-De-Masa/static/js/787.6286dce0.chunk.js",
+    "static/media/mezcal.jpg": "/Casa-De-Masa/static/media/mezcal.96786c82d2163d3318b6.jpg",
+    "static/media/taco.jpg": "/Casa-De-Masa/static/media/taco.a4704ce2bdbfa93c582f.jpg",
+    "static/media/salbutes.jpg": "/Casa-De-Masa/static/media/salbutes.7befe266d5aefa9fda47.jpg",
+    "static/media/bluetaco.png": "/Casa-De-Masa/static/media/bluetaco.c8fd2b186d4b063d1335.png",
+    "static/media/quesadilla.png": "/Casa-De-Masa/static/media/quesadilla.fd523cded63569247f7d.png",
+    "index.html": "/Casa-De-Masa/index.html",
+    "main.ea4939d3.css.map": "/Casa-De-Masa/static/css/main.ea4939d3.css.map",
+    "main.e4763d50.js.map": "/Casa-De-Masa/static/js/main.e4763d50.js.map",
+    "787.6286dce0.chunk.js.map": "/Casa-De-Masa/static/js/787.6286dce0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea4939d3.css",
+    "static/js/main.e4763d50.js"
+  ]
+}
