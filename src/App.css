@@ -70,6 +70,7 @@ body {
   text-align: center;
   padding-bottom: 20px;
   line-height: 1.7em;
+  max-width: 800px;
 }
 
 .imagetwo--container {
@@ -120,14 +121,37 @@ body {
   font-size: 12px;
   padding: 0px 50px;
   padding-top: 20px;
+  
 }
 
 .footer--left {
   margin-right: auto;
 }
 
-@media only screen and (max-width: 1000px) {
-  body {
-    max-width: 1000px;
+@media only screen and (min-width: 600px) {
+  .menu--icon {
+    visibility: hidden;
   }
+}
+
+@media only screen and (max-width: 600px) {
+  .nav--right {
+    visibility: hidden;
+  }
+  .menu--icon {
+    visibility: visible;
+  }
+  
+
+}
+
+.menu--icon {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  right: 10px;
+  background-image: url("./images/menuicon.png");
+  background-size: contain;
+  background-color: rgba(248, 248, 255, 0);
+  border: unset;
 }
