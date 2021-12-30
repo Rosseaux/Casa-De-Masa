@@ -15,3 +15,19 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+
+let menuStatus = "off";
+
+document.querySelector(".menu--icon").addEventListener("click", () => {
+    if (menuStatus === "off") {
+      let menuHidden = document.querySelector(".menu--hidden");
+        menuStatus = "on";
+        menuHidden.style.visibility = "visible";
+    }
+    else if (menuStatus === "on") {
+      let menuHidden = document.querySelector(".menu--hidden");
+        menuStatus = "off";
+        menuHidden.style.visibility = "hidden";
+    }
+})

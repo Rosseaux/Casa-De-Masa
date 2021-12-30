@@ -14,17 +14,3 @@ export default function Header() {
     )
 }
 
-const menuIcon = document.querySelector(".menu--icon");
-const menuHidden = document.querySelector(".menu--hidden");
-let menuStatus = "off";
-
-menuIcon.addEventListener("click", () => {
-    if (menuStatus === "off") {
-        menuStatus = "on";
-        menuHidden.style.visibility = "visible";
-    }
-    else if (menuStatus === "on") {
-        menuStatus = "off";
-        menuHidden.style.visibility = "hidden";
-    }
-})
